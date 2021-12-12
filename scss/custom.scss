@@ -1,0 +1,48 @@
+$body-bg: rgb(27, 27, 27);
+$body-color: white;
+$primary: rgb(53, 174, 255);
+$warning: rgb(116, 255, 232);
+$font-family-sans-serif: "JetBrains Mono", monospace;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Google font
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5 rem;
+    padding-left: 1.5 rem;
+  }
+}
+
+.custombg {
+  background: black
+    url("https://images.unsplash.com/photo-1512861506260-6520871bbdaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+.heading h1 {
+  color: #ff4d6a;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background: #232323;
+}
+.card-body p {
+  color: gray;
+}
+
+.card-title {
+  color: #ff4d6a;
+}
